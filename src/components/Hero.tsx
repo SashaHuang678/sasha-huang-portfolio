@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="w-full md:w-1/3 flex justify-center md:justify-start animate-fade-up">
             <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-xl">
               <img 
-                src="/portrait.img" 
+                src="/lovable-uploads/01cf07aa-8203-41cb-800a-79260da7df7e.png" 
                 alt="Sasha Huang" 
                 className="w-full h-full object-cover"
                 onError={(e) => {
