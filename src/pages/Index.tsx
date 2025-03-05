@@ -1,3 +1,4 @@
+<lov-codelov-code>
 import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
@@ -68,3 +69,4 @@ const Index = () => {
 };
 
 export default Index;
+</lov-code>

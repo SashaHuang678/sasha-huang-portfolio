@@ -8,18 +8,14 @@ const Hero = () => {
       id="home" 
       className="min-h-screen flex items-center justify-center relative pt-16 overflow-hidden"
     >
-      {/* Background video */}
+      {/* Background image */}
       <div className="absolute inset-0 -z-20 overflow-hidden">
-        <video
+        <img
+          src="/lovable-uploads/15b6f55a-d85e-4a49-b1d0-69eeba63edb0.png"
+          alt="Tranquil beach scene"
           className="absolute min-w-full min-h-full object-cover"
-          autoPlay
-          muted
-          loop
-          playsInline
-        >
-          <source src="/video.mp4" type="video/mp4" />
-        </video>
-        <div className="absolute inset-0 bg-black/30"></div>
+        />
+        <div className="absolute inset-0 bg-black/20"></div>
       </div>
       
       <div className="absolute inset-0 -z-10">
